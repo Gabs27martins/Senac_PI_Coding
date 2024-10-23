@@ -1,0 +1,169 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#containerInicio {
+  height: 100vh;
+  background-image: url("../img/fazendoBarba.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;
+}
+
+#containerNavImg {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  width: 60vw;
+  padding: 10px;
+  margin-right: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s;
+  font: "open sans";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #2f94ff;
+}
+
+nav a:active {
+  color: #2f94ff;
+}
+
+#linkAgendar {
+    position: fixed;
+    top: 50px;
+    right: 12px;
+    width: auto;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #FFFFFF 1px;
+    border-radius: 4px;
+    margin: 6px 0 0 6px;
+    
+}
+#linkAgendar:hover {
+    background-color: #FFFFFF; 
+    color:  #2f94ff;
+}
+
+h1 {
+  font-family: "open sans";
+  font-size: 80px;
+}
+
+p {
+  font-family: "open sans";
+  font-size: 20px;
+  margin: 12px;
+}
+
+span {
+    font-family: "open sans";
+    font-size: 10px;
+    margin: 12px;
+    text-align: center; 
+}
+
+#textoInicio {
+  margin: 10% 0 0 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alinharTitulo {
+  display: flex;
+  flex-direction: row;
+}
+
+#tituloLaranja {
+  color: #ff6201;
+  margin-left: 4px;
+}
+
+#sobre {
+  height: 100vh;
+}
+
+#containerSobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#containerSobre div {
+  width: 50%;
+  margin: 10px;
+}
+
+#imgSizeSobre {
+  width: 100%;
+  object-fit: contain;
+  padding-right: 10px;
+}
+
+#horarios {
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+#containerHorario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#containerHorario div {
+  width: 50%;
+  margin: 10px;
+}
+
+#imgSizeHorario {
+  width: 100%;
+  object-fit: contain;
+  padding-right: 10px;
+}
+
+#localizacao {
+  height: 100vh;
+}
+
+#containerLocalizacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  #containerLocalizacao div {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  #containerLocalizacao img {
+    width: 100%;
+    object-fit: contain;
+    padding: 0 8px 0 8px;    
+  }

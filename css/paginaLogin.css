@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.left-section {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-section {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.login-container h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.esquicisenha{
+    text-align: center;
+}
+
+
+
+.login-container p{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding :  10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.btn-login:hover {
+    background-color: #ff6600;
+}
+
+.forgot-password {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background: #ccc;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ff6600;
+}
+
+
+.left-section img {
+    width: 30000%;
+    max-width: 100000px;
+    padding-right: 27px;
+  
+    padding-top: 130px;
+}
+
+.fotosenac img{
+    width: 100%;
+    max-width: 950px;
+}
+
+
